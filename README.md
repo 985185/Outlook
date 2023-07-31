@@ -1,6 +1,4 @@
 # Outlook
-Certainly! Below is a sample README.md file that you can use to provide information about the Python script that downloads PDF attachments from Outlook emails:
-
 ---
 
 # Outlook PDF Attachment Downloader
@@ -65,9 +63,3 @@ pip install pywin32
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-You can create a new file named `README.md` in the same directory as the Python script and paste the above content into it. This README file provides instructions on setup, usage, and any important notes or disclaimers related to the script.
-
-Feel free to customize the README to include any additional information you think might be useful for others who may use or contribute to the project.
-
-If you have any further questions or need more assistance, feel free to ask!
