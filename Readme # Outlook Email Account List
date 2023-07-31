@@ -1,0 +1,62 @@
+---
+
+# Outlook Email Account List
+
+This Python script allows you to list all the email accounts configured in Microsoft Outlook. It uses the `win32com.client` library to interact with the Outlook application and fetch the list of accounts.
+
+## Prerequisites
+
+- Python 3.x installed on your system.
+- Required Python library: `win32com`
+
+You can install the required library using pip:
+
+```bash
+pip install pywin32
+```
+
+## Setup
+
+1. Clone this repository or download the `outlook_account_list.py` script to your local machine.
+
+2. Open the `outlook_account_list.py` file in a text editor.
+
+3. Save any changes you want to make to the script.
+
+## Usage
+
+1. Make sure Microsoft Outlook is installed on your computer.
+
+2. Open a terminal or command prompt.
+
+3. Navigate to the directory containing the `outlook_account_list.py` file.
+
+4. Run the script using the following command:
+
+   ```bash
+   python outlook_account_list.py
+   ```
+
+   The script will connect to the Outlook application, fetch the list of email accounts, and print the account index and name to the console.
+
+## Example Output
+
+```
+Account 0: Outlook Data File
+Account 1: your.email@example.com
+Account 2: another.email@example.com
+...
+```
+
+Each line represents an email account with its corresponding index and name. The first account might be "Outlook Data File," which represents the primary data file for your local Outlook storage. The subsequent accounts would be your actual email accounts configured in Outlook.
+
+## Note
+
+- This script is designed to work with the Windows version of Microsoft Outlook.
+- Ensure you have appropriate access and permissions to run the script and interact with Outlook.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
