@@ -1,0 +1,10 @@
+import win32com.client
+
+def list_outlook_accounts():
+    outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+    accounts = outlook.Folders
+    for idx, account in enumerate(accounts):
+        print(f"Account {idx}: {account.Name}")
+
+if __name__ == "__main__":
+    list_outlook_accounts()
